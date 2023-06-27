@@ -18,5 +18,4 @@ router.put("/updateProduct", checkPin, updateProducts);
 
 //delete Products
 router.delete("/deleteProduct", checkAdmin, deleteProducts);
-
 export default router;
